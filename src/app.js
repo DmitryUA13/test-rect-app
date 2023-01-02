@@ -2,9 +2,11 @@ import React from 'react';
 import styles from './styles.scss';
 
 
+const tgWebApp = window.Telegram.WebApp;
+
 const onClickEvent = (e) => {
     e.preventDefault();
-    alert('You Clicked Me!')
+    tgWebApp.close();
 }
 
 const App = () => {

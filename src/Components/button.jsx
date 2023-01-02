@@ -1,8 +1,8 @@
 import styles from './Buttom.module.scss'
 
 
-export function Button () {
+export default function Button () {
     return (
-        <div  className={styles.ButtonBlue}></div>
+        <button  className={styles.ButtonBlue}>Click Me!!</button>
     )
 }

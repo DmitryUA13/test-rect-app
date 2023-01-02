@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    padding: 0px 50px;
+    height: 80px;
+    justify-content: space-between;
+    align-content: center;
+    .headerNav {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        .logo {
+            display: flex;
+            justify-content: flex-end;
+            img {
+                padding: 10px;
+            }
+        }
+        .headerMenu{
+            color: aqua;
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            align-content: center;
+            gap: 30px;
+            li {
+                a {
+                    text-decoration: none;
+                }
+            }
+            .headerRight {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        
+    }
+}
+

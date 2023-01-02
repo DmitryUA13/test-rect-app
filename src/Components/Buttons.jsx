@@ -4,7 +4,7 @@ const tgWebApp = window.Telegram.WebApp;
 
 export default function Buttons () {
     function onCkick() {
-        alert(tgWebApp.initDataUnsafe);
+        alert(tgWebApp.initDataUnsafe.user.username);
     }
 
     return (

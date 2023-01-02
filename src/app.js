@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.scss';
-import Button from './Components/Button'
+import Button from './Components/Buttons'
 
 
 const tgWebApp = window.Telegram.WebApp;

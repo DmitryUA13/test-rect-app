@@ -1,0 +1,20 @@
+.WrapperList {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+    margin: 0 auto;
+    scrollbar-color: #458245 #714826; /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: auto;  /* толщина */
+}
+
+.WrapperList::-webkit-scrollbar {
+    color: #458245;
+    width: 50px;
+    height: 50px;
+}
+.WrapperList::-webkit-scrollbar-corner{
+    color: #458245;
+}

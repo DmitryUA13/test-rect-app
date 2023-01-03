@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import styles from "./styles.scss";
 import Button from "./Components/Buttons";
 import ProductList from "./Components/ProductList/ProductList";
+import tgWebApp from '../src/Hooks/useTelegram.js'
 
-const tgWebApp = window.Telegram.WebApp;
+
 
 const onClickEvent = (e) => {
   e.preventDefault();
